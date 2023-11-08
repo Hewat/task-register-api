@@ -1,0 +1,18 @@
+// GET all tasks
+###
+GET http://localhost:3000/tasks
+
+###
+// CREATE new task
+POST http://localhost:3000/tasks
+Content-Type: application/json
+
+{
+    "title": "Task 3",
+    "description": "Entregar teste da Eymobile!",
+    "status": "complete"
+}
+
+//DELETE Task
+###
+DELETE http://localhost:3000/tasks/654bf130ec35438fadcfc452
